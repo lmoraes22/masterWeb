@@ -66,13 +66,13 @@ export default {
       }
     },
     findProdutos() {
-      axios.get('http://localhost:8084/api/produtos')
+      axios.get(process.env.VUE_APP_ROOT_API + 'produtos')
           .then(response => {
             this.produtos = response.data.data;
           });
     },
     fecharPedido() {
-      axios.post('http://localhost:8084/api/vendas', {
+      axios.post(process.env.VUE_APP_ROOT_API + 'vendas', {
         'carrinho': this.carrinho,
         'total': this.total
       })
