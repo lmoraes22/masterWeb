@@ -17,7 +17,7 @@ docker-compose up
 docker exec -it base-app php artisan migrate:refresh --seed
 ```
 ### Vue.js
-Dentro da pasta master-api fazer uma copia do arquivo .env.example e remover o "example" do final
+Dentro da pasta master-fron fazer uma copia do arquivo .env.example e remover o "example" do final
 
 Rodar os seguintes comandos dentro da pasta master-front
 ```
