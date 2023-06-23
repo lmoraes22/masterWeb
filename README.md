@@ -1,4 +1,9 @@
 # Projeto Teste Master Web
+
+### Login
+
+Para fazer login usuário "**admin@admin.com**" senha "**admin**"
+
 ### Laravel
 Dentro da pasta master-api fazer uma copia do arquivo .env.example e remover o "example" do final
 
